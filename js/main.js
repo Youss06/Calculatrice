@@ -16,5 +16,3 @@ function verification(entree) {
    window.document.calculatrice.result.value =
    window.document.calculatrice.result.value + caracteres;
  }
-
- 
