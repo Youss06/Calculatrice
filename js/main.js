@@ -7,12 +7,12 @@ function verification(entree) {
 
  function calcul() {
    var a = 0;
-  if (verification(window.document.calculatrice.result.value))
-     a = eval(window.document.calculatrice.result.value);
-   window.document.calculatrice.result.value = a;
+  if (verification(document.calculatrice.result.value))
+     a = eval(document.calculatrice.result.value);
+   document.calculatrice.result.value = a;
  }
 
  function ajouter(caracteres) {
-   window.document.calculatrice.result.value =
-   window.document.calculatrice.result.value + caracteres;
+  document.calculatrice.result.value =
+  document.calculatrice.result.value + caracteres;
  }
